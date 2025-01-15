@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Saira+Extra+Condensed:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.my{
+  margin-bottom:500px ;
+  
+}
+
+.my2{
+  margin-bottom: 500px ;
+}
+
+.container {
+  display: flex;
+
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.container1 {
+  background-color:rgb(49, 111, 108);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 300px; */
+}
+
+.nav , .nav ul{
+  display:flex;
+  flex-direction: column;
+}
+
+
+
+.container1 img {
+  border: 5px solid #91b8b6;
+  height: 120px;
+  border-radius: 50%;
+  /* aspect-ratio: 1/1; */
+}
+
+.container1 ul li {
+  list-style: none;
+  text-align: center;
+  line-height: 40px;
+}
+
+.container1 ul li a {
+  text-decoration: none;
+  color: rgb(255, 255, 255, 0.75);
+  font-size: 20px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+.container2 {
+  background-color:rgb(218, 210, 210);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  padding: 0px 30px;
+  overflow: auto;
+}
+
+.container2 a {
+  text-decoration: none;
+}
+
+.container2 address {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+
+  .container1 {
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+  }
+  .nav, .nav ul{
+
+    flex-direction: row;
+    align-items: center;
+    gap:2rem;
+  }
+  .container1 ul {
+    /* display: none; */
+  }
+  .container1 img {
+    width: 130px;
+    height: 130px;
+   margin: 6px 0px;
+    /* object-fit: contain; */
+  }
+  .container2 {
+    margin-top: 150px;
+  }
+}
+
+.date {
+  display: flex;
+  justify-content: space-between;
+}
+.container2 h1 {
+  color: rgb(52, 58, 64);
+  font-size: 60px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 88px;
+ 
+}
+
+.container2 p {
+  color: rgb(26, 23, 23);
+  font-size: 18px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 28px;
+  font-family: "Mulish", sans-serif;
+}
+
+.nav ul li a:hover {
+  color: white;
+  
+}
+
+body{
+  font-family: "Saira Extra Condensed", sans-serif;
+}
+
+.container2 h2{
+  color: rgb(26, 23, 23);
+  font-size: 28px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 28px;
+  font-family: "Mulish", sans-serif;
+}
+
+.container2 h3{
+  color: rgb(26, 23, 23);
+  font-size: 20px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 28px;
+  font-family: "Mulish", sans-serif;
+}
+
+hr{
+  margin-top: 20px ;
+}
+
